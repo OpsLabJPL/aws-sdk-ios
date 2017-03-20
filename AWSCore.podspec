@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
   s.platform     = :osx, '10.12'
   s.source       = { :git => 'https://github.com/OpsLabJPL/aws-sdk-ios.git',
                      :tag => s.version}
-  s.frameworks   = 'UIKit', 'Foundation', 'SystemConfiguration'
   s.libraries    = 'z', 'sqlite3'
   s.requires_arc = true
 
